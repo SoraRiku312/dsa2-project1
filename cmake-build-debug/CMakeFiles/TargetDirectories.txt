@@ -1,0 +1,4 @@
+D:/Sora/Documents/COP4534/project1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/Sora/Documents/COP4534/project1/cmake-build-debug/CMakeFiles/test.dir
+D:/Sora/Documents/COP4534/project1/cmake-build-debug/CMakeFiles/project1.dir
+D:/Sora/Documents/COP4534/project1/cmake-build-debug/CMakeFiles/edit_cache.dir
