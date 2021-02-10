@@ -153,6 +153,33 @@ project1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/build
 .PHONY : project1/fast
 
+encryptor.obj: encryptor.cpp.obj
+
+.PHONY : encryptor.obj
+
+# target to build an object file
+encryptor.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/encryptor.cpp.obj
+.PHONY : encryptor.cpp.obj
+
+encryptor.i: encryptor.cpp.i
+
+.PHONY : encryptor.i
+
+# target to preprocess a source file
+encryptor.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/encryptor.cpp.i
+.PHONY : encryptor.cpp.i
+
+encryptor.s: encryptor.cpp.s
+
+.PHONY : encryptor.s
+
+# target to generate assembly for a file
+encryptor.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/encryptor.cpp.s
+.PHONY : encryptor.cpp.s
+
 file_io.obj: file_io.cpp.obj
 
 .PHONY : file_io.obj
@@ -217,6 +244,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... project1
+	@echo ... encryptor.obj
+	@echo ... encryptor.i
+	@echo ... encryptor.s
 	@echo ... file_io.obj
 	@echo ... file_io.i
 	@echo ... file_io.s

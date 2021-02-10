@@ -6,22 +6,26 @@
 #define PROJECT1_FILE_IO_HPP
 
 #include <string>
+#include <fstream>
+
 using namespace std;
 
 class File_IO{
 
 private:
     string fileName;
-    void ReadFile();
-
-
+    ifstream inFile;
+    ofstream outFile;
+    string GeneratePassword();
 public:
     File_IO();
     File_IO(string s);
-    void GeneratePasswords();
+    bool ReadFile();
+
     string GetFileName();
 
 
+    void WriteEncryptedFile();
 };
 
 #endif //PROJECT1_FILE_IO_HPP

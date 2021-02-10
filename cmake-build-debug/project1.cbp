@@ -92,6 +92,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Sora/Documents/COP4534/project1/encryptor.cpp">
+			<Option target="project1"/>
+		</Unit>
+		<Unit filename="D:/Sora/Documents/COP4534/project1/encryptor.hpp">
+			<Option target="project1"/>
+		</Unit>
 		<Unit filename="D:/Sora/Documents/COP4534/project1/file_io.cpp">
 			<Option target="project1"/>
 		</Unit>

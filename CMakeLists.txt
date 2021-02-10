@@ -8,5 +8,7 @@ include_directories(.)
 add_executable(project1
         file_io.cpp
         file_io.hpp
-        test/Test1.cpp)
+        test/Test1.cpp
+        encryptor.cpp
+        encryptor.hpp)
 enable_testing()

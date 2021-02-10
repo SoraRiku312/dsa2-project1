@@ -11,4 +11,6 @@ TEST_CASE("READ_FILE")
 {
     File_IO f("lastNames.txt");
     CHECK("lastNames" == f.GetFileName());
+    CHECK(TRUE == f.ReadFile());
+
 }
