@@ -207,6 +207,60 @@ file_io.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/file_io.cpp.s
 .PHONY : file_io.cpp.s
 
+hasher.obj: hasher.cpp.obj
+
+.PHONY : hasher.obj
+
+# target to build an object file
+hasher.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/hasher.cpp.obj
+.PHONY : hasher.cpp.obj
+
+hasher.i: hasher.cpp.i
+
+.PHONY : hasher.i
+
+# target to preprocess a source file
+hasher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/hasher.cpp.i
+.PHONY : hasher.cpp.i
+
+hasher.s: hasher.cpp.s
+
+.PHONY : hasher.s
+
+# target to generate assembly for a file
+hasher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/hasher.cpp.s
+.PHONY : hasher.cpp.s
+
+node.obj: node.cpp.obj
+
+.PHONY : node.obj
+
+# target to build an object file
+node.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/node.cpp.obj
+.PHONY : node.cpp.obj
+
+node.i: node.cpp.i
+
+.PHONY : node.i
+
+# target to preprocess a source file
+node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/node.cpp.i
+.PHONY : node.cpp.i
+
+node.s: node.cpp.s
+
+.PHONY : node.s
+
+# target to generate assembly for a file
+node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/node.cpp.s
+.PHONY : node.cpp.s
+
 test/Test1.obj: test/Test1.cpp.obj
 
 .PHONY : test/Test1.obj
@@ -250,6 +304,12 @@ help:
 	@echo ... file_io.obj
 	@echo ... file_io.i
 	@echo ... file_io.s
+	@echo ... hasher.obj
+	@echo ... hasher.i
+	@echo ... hasher.s
+	@echo ... node.obj
+	@echo ... node.i
+	@echo ... node.s
 	@echo ... test/Test1.obj
 	@echo ... test/Test1.i
 	@echo ... test/Test1.s

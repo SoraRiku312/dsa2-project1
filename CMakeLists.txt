@@ -10,5 +10,9 @@ add_executable(project1
         file_io.hpp
         test/Test1.cpp
         encryptor.cpp
-        encryptor.hpp)
+        encryptor.hpp
+        node.cpp
+        node.hpp
+        hasher.cpp
+        hasher.hpp)
 enable_testing()
