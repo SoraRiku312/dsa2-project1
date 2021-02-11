@@ -6,21 +6,15 @@
 
 #IncludeRegexTransform: 
 
-D:/Sora/Documents/COP4534/project1/file_io.cpp
-file_io.hpp
-D:/Sora/Documents/COP4534/project1/file_io.hpp
+D:/Sora/Documents/COP4534/project1/encryptor.cpp
+encryptor.hpp
+D:/Sora/Documents/COP4534/project1/encryptor.hpp
 string
 -
-fstream
--
-math.h
--
-sstream
+cstring
 -
 
-D:/Sora/Documents/COP4534/project1/file_io.hpp
+D:/Sora/Documents/COP4534/project1/encryptor.hpp
 string
--
-fstream
 -
 

@@ -11,11 +11,12 @@ using namespace std;
 class Encryptor {
 
 private:
-    string key;
+     string key = "jones";
 public:
-    string Encrypt(string originalWord);
-    string GetKey();
-    void SetKey(string key);
+    Encryptor();
+    string  Encrypt(string originalWord);
+    string  GetKey();
+    void  SetKey(string key);
 };
 
 

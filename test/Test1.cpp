@@ -14,3 +14,9 @@ TEST_CASE("READ_FILE")
     CHECK(TRUE == f.ReadFile());
 
 }
+
+TEST_CASE("ENCRYPT_PASSWORDS")
+{
+    File_IO f("lastNames.txt");
+    CHECK(TRUE == f.WriteEncryptedFile());
+}

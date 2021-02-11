@@ -11,11 +11,15 @@ using namespace std;
 
 string Encryptor::Encrypt(string originalWord){
 
-    char keyArray[GetKey().length()];
-    int currentChar = 0;
-    strcpy(keyArray, originalWord.c_str());
+    SetKey("jones");
 
-    char encryptedArray[9];
+//    char keyArray[GetKey().length()];
+    int currentChar = 0;
+//    strcpy(keyArray, originalWord.c_str());
+
+    string keyArray = GetKey();
+
+    char encryptedArray[10];
 
     for(int i = 0; i < originalWord.length(); i++)
     {
@@ -23,15 +27,15 @@ string Encryptor::Encrypt(string originalWord){
         int newPos;
         char newChar;
         pos = originalWord[i] - 97;
-        newPos = currentChar + pos;
-        keyArray[currentChar] + newPos;
+ //       newPos = currentChar + pos;
+        newPos = keyArray[currentChar] + pos;
         if(newPos > 122)
         {
-            newChar = 97 + (newPos - 122);
+            newChar = 97 + (newPos - 123);
         }else{
             newChar = newPos;
         }
-        if(currentChar < GetKey().length())
+        if(currentChar < GetKey().length()-1)
         {
             currentChar++;
         }else{
@@ -39,17 +43,21 @@ string Encryptor::Encrypt(string originalWord){
         }
         encryptedArray[i] = newChar;
     }
-
+    encryptedArray[9] = '\0';
     string password(encryptedArray);
     return password;
-}
 
+}
 string Encryptor::GetKey()
 {
     return key;
 }
 
-void Encryptor::SetKey(string key)
+void Encryptor::SetKey(string k)
 {
-    this->key = key;
+    key = k;
+}
+
+Encryptor::Encryptor() {
+    //
 }

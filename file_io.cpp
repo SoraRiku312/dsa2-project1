@@ -6,6 +6,7 @@
 #include <fstream>
 #include <math.h>
 #include <sstream>
+#include "encryptor.hpp"
 
 using namespace std;
 
@@ -62,8 +63,26 @@ string File_IO::GeneratePassword(){
     return password;
 }
 
-void File_IO::WriteEncryptedFile()
+bool File_IO::WriteEncryptedFile()
 {
     outFile.open("encrypted.txt");
+    inFile.open("raw.txt");
+
+    string user;
+    string plainPass;
+    string encryptedPass;
+    Encryptor enc;
+    if(outFile.is_open())
+    {
+        while(inFile >> user)
+        {
+            inFile >> plainPass;
+            encryptedPass = enc.Encrypt(plainPass);
+
+            outFile << user << " " << encryptedPass << endl;
+        }
+        return true;
+    }
+    return false;
 
 }

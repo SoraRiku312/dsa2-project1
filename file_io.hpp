@@ -25,7 +25,7 @@ public:
     string GetFileName();
 
 
-    void WriteEncryptedFile();
+    bool WriteEncryptedFile();
 };
 
 #endif //PROJECT1_FILE_IO_HPP
