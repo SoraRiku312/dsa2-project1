@@ -10,7 +10,6 @@
 #include "hasher.hpp"
 #include "file_io.hpp"
 
-
 #include <iostream>
 
 using namespace std;
@@ -32,8 +31,9 @@ int main()
     cout << "Userid\tPassword\tResult" << endl;
     f.TestFiveIllegal(hashTable);
 
-
-
+    string exit;
+    cout << "\n\nEnter a key to exit!" << endl;
+    cin >> exit;
 
 
 
