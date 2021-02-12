@@ -90,24 +90,10 @@ CMakeFiles/project1.dir/file_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/file_io.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Sora\Documents\COP4534\project1\file_io.cpp -o CMakeFiles\project1.dir\file_io.cpp.s
 
-CMakeFiles/project1.dir/test/Test1.cpp.obj: CMakeFiles/project1.dir/flags.make
-CMakeFiles/project1.dir/test/Test1.cpp.obj: CMakeFiles/project1.dir/includes_CXX.rsp
-CMakeFiles/project1.dir/test/Test1.cpp.obj: ../test/Test1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project1.dir/test/Test1.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project1.dir\test\Test1.cpp.obj -c D:\Sora\Documents\COP4534\project1\test\Test1.cpp
-
-CMakeFiles/project1.dir/test/Test1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project1.dir/test/Test1.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Sora\Documents\COP4534\project1\test\Test1.cpp > CMakeFiles\project1.dir\test\Test1.cpp.i
-
-CMakeFiles/project1.dir/test/Test1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/test/Test1.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Sora\Documents\COP4534\project1\test\Test1.cpp -o CMakeFiles\project1.dir\test\Test1.cpp.s
-
 CMakeFiles/project1.dir/encryptor.cpp.obj: CMakeFiles/project1.dir/flags.make
 CMakeFiles/project1.dir/encryptor.cpp.obj: CMakeFiles/project1.dir/includes_CXX.rsp
 CMakeFiles/project1.dir/encryptor.cpp.obj: ../encryptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project1.dir/encryptor.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/project1.dir/encryptor.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project1.dir\encryptor.cpp.obj -c D:\Sora\Documents\COP4534\project1\encryptor.cpp
 
 CMakeFiles/project1.dir/encryptor.cpp.i: cmake_force
@@ -121,7 +107,7 @@ CMakeFiles/project1.dir/encryptor.cpp.s: cmake_force
 CMakeFiles/project1.dir/node.cpp.obj: CMakeFiles/project1.dir/flags.make
 CMakeFiles/project1.dir/node.cpp.obj: CMakeFiles/project1.dir/includes_CXX.rsp
 CMakeFiles/project1.dir/node.cpp.obj: ../node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project1.dir/node.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/project1.dir/node.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project1.dir\node.cpp.obj -c D:\Sora\Documents\COP4534\project1\node.cpp
 
 CMakeFiles/project1.dir/node.cpp.i: cmake_force
@@ -135,7 +121,7 @@ CMakeFiles/project1.dir/node.cpp.s: cmake_force
 CMakeFiles/project1.dir/hasher.cpp.obj: CMakeFiles/project1.dir/flags.make
 CMakeFiles/project1.dir/hasher.cpp.obj: CMakeFiles/project1.dir/includes_CXX.rsp
 CMakeFiles/project1.dir/hasher.cpp.obj: ../hasher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project1.dir/hasher.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/project1.dir/hasher.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project1.dir\hasher.cpp.obj -c D:\Sora\Documents\COP4534\project1\hasher.cpp
 
 CMakeFiles/project1.dir/hasher.cpp.i: cmake_force
@@ -146,22 +132,36 @@ CMakeFiles/project1.dir/hasher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/hasher.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Sora\Documents\COP4534\project1\hasher.cpp -o CMakeFiles\project1.dir\hasher.cpp.s
 
+CMakeFiles/project1.dir/main.cpp.obj: CMakeFiles/project1.dir/flags.make
+CMakeFiles/project1.dir/main.cpp.obj: CMakeFiles/project1.dir/includes_CXX.rsp
+CMakeFiles/project1.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Sora\Documents\COP4534\project1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/project1.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\project1.dir\main.cpp.obj -c D:\Sora\Documents\COP4534\project1\main.cpp
+
+CMakeFiles/project1.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project1.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Sora\Documents\COP4534\project1\main.cpp > CMakeFiles\project1.dir\main.cpp.i
+
+CMakeFiles/project1.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project1.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Sora\Documents\COP4534\project1\main.cpp -o CMakeFiles\project1.dir\main.cpp.s
+
 # Object files for target project1
 project1_OBJECTS = \
 "CMakeFiles/project1.dir/file_io.cpp.obj" \
-"CMakeFiles/project1.dir/test/Test1.cpp.obj" \
 "CMakeFiles/project1.dir/encryptor.cpp.obj" \
 "CMakeFiles/project1.dir/node.cpp.obj" \
-"CMakeFiles/project1.dir/hasher.cpp.obj"
+"CMakeFiles/project1.dir/hasher.cpp.obj" \
+"CMakeFiles/project1.dir/main.cpp.obj"
 
 # External object files for target project1
 project1_EXTERNAL_OBJECTS =
 
 project1.exe: CMakeFiles/project1.dir/file_io.cpp.obj
-project1.exe: CMakeFiles/project1.dir/test/Test1.cpp.obj
 project1.exe: CMakeFiles/project1.dir/encryptor.cpp.obj
 project1.exe: CMakeFiles/project1.dir/node.cpp.obj
 project1.exe: CMakeFiles/project1.dir/hasher.cpp.obj
+project1.exe: CMakeFiles/project1.dir/main.cpp.obj
 project1.exe: CMakeFiles/project1.dir/build.make
 project1.exe: CMakeFiles/project1.dir/linklibs.rsp
 project1.exe: CMakeFiles/project1.dir/objects1.rsp

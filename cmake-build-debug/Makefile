@@ -234,6 +234,33 @@ hasher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/hasher.cpp.s
 .PHONY : hasher.cpp.s
 
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/main.cpp.s
+.PHONY : main.cpp.s
+
 node.obj: node.cpp.obj
 
 .PHONY : node.obj
@@ -261,33 +288,6 @@ node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/node.cpp.s
 .PHONY : node.cpp.s
 
-test/Test1.obj: test/Test1.cpp.obj
-
-.PHONY : test/Test1.obj
-
-# target to build an object file
-test/Test1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/test/Test1.cpp.obj
-.PHONY : test/Test1.cpp.obj
-
-test/Test1.i: test/Test1.cpp.i
-
-.PHONY : test/Test1.i
-
-# target to preprocess a source file
-test/Test1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/test/Test1.cpp.i
-.PHONY : test/Test1.cpp.i
-
-test/Test1.s: test/Test1.cpp.s
-
-.PHONY : test/Test1.s
-
-# target to generate assembly for a file
-test/Test1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\project1.dir\build.make CMakeFiles/project1.dir/test/Test1.cpp.s
-.PHONY : test/Test1.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -307,12 +307,12 @@ help:
 	@echo ... hasher.obj
 	@echo ... hasher.i
 	@echo ... hasher.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 	@echo ... node.obj
 	@echo ... node.i
 	@echo ... node.s
-	@echo ... test/Test1.obj
-	@echo ... test/Test1.i
-	@echo ... test/Test1.s
 .PHONY : help
 
 

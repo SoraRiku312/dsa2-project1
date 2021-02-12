@@ -1,6 +1,10 @@
-//
-// Created by Sora on 2/10/2021.
-//
+/*
+  Student Name: William Burch
+  File Name: encryptor.hpp
+  Assignment number: Project 1
+
+  Encryptor encrypts the plaintext password using the Vignere cipher
+ */
 
 #ifndef PROJECT1_ENCRYPTOR_HPP
 #define PROJECT1_ENCRYPTOR_HPP

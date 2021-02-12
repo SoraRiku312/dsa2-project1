@@ -1,21 +1,27 @@
-//
-// Created by Sora on 2/10/2021.
-//
+/*
+  Student Name: William Burch
+  File Name: encryptor.cpp
+  Assignment number: Project 1
+
+  Encryptor encrypts the plaintext password using the Vignere cipher
+ */
 
 #include "encryptor.hpp"
 #include <string>
-#include <cstring>
 
 using namespace std;
 
-
+/*  Encryptor::Encrypt()
+ *  Encrypts plaintext passwords using the Vignere cipher
+ *  Parameters:
+ *  string originalWord - the plaintext password
+ *  Returns string - encrypted password
+ */
 string Encryptor::Encrypt(string originalWord){
 
     SetKey("jones");
 
-//    char keyArray[GetKey().length()];
     int currentChar = 0;
-//    strcpy(keyArray, originalWord.c_str());
 
     string keyArray = GetKey();
 
@@ -48,11 +54,21 @@ string Encryptor::Encrypt(string originalWord){
     return password;
 
 }
+
+/*  Encryptor::GetKey()
+ *  Gets the key
+ *  Returns string - the key
+ */
 string Encryptor::GetKey()
 {
     return key;
 }
 
+/*  Encryptor::SetKey()
+ *  Sets the key
+ *  Parameters:
+ *  string k - the key to set
+ */
 void Encryptor::SetKey(string k)
 {
     key = k;

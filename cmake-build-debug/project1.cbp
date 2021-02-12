@@ -110,13 +110,13 @@
 		<Unit filename="D:/Sora/Documents/COP4534/project1/hasher.hpp">
 			<Option target="project1"/>
 		</Unit>
+		<Unit filename="D:/Sora/Documents/COP4534/project1/main.cpp">
+			<Option target="project1"/>
+		</Unit>
 		<Unit filename="D:/Sora/Documents/COP4534/project1/node.cpp">
 			<Option target="project1"/>
 		</Unit>
 		<Unit filename="D:/Sora/Documents/COP4534/project1/node.hpp">
-			<Option target="project1"/>
-		</Unit>
-		<Unit filename="D:/Sora/Documents/COP4534/project1/test/Test1.cpp">
 			<Option target="project1"/>
 		</Unit>
 		<Unit filename="D:/Sora/Documents/COP4534/project1/CMakeLists.txt">

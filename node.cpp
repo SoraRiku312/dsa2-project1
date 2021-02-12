@@ -1,6 +1,10 @@
-//
-// Created by Sora on 2/11/2021.
-//
+/*
+  Student Name: William Burch
+  File Name: node.cpp
+  Assignment number: Project 1
+
+  Nodes hold the username and password to put into the table
+*/
 
 #include "node.hpp"
 using namespace std;
@@ -21,14 +25,12 @@ void Node::setEncryptedPass(const string &encryptedPass) {
     Node::encryptedPass = encryptedPass;
 }
 
-Node *Node::getNext() const {
-    return next;
-}
-
-void Node::setNext(Node *next) {
-    Node::next = next;
-}
-
+/*  Node::Node()
+ * Constructs the node using user and the encrypted password
+ * Parameters:
+ * string user - the user
+ * string encryptedPass - the encrypted password
+ */
 Node::Node(string user, string encryptedPass) {
 
     setUser(user);

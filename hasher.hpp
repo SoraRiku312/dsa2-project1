@@ -1,6 +1,10 @@
-//
-// Created by Sora on 2/11/2021.
-//
+/*
+  Student Name: William Burch
+  File Name: hasher.hpp
+  Assignment number: Project 1
+
+  Hasher hashes the last name into the table
+ */
 
 #ifndef PROJECT1_HASHER_HPP
 #define PROJECT1_HASHER_HPP
@@ -19,21 +23,12 @@ private:
     int HashFunction(string name);
 public:
 
-    bool InsertNode(Node *node);
+    void InsertNode(Node *node);
 
     Hasher(int numOfBuckets);
 
     int getNumOfBuckets() const;
 
-    void setNumOfBuckets(int numOfBuckets);
-
-    list<Node*> *getTable() const;
-
-    void setTable(list<Node*> *table);
-
-    int insertUser(string user);
-
-    void PrintOut();
 
     bool findEntry(string user, string pass);
 

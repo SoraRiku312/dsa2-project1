@@ -8,11 +8,11 @@ include_directories(.)
 add_executable(project1
         file_io.cpp
         file_io.hpp
-        test/Test1.cpp
         encryptor.cpp
         encryptor.hpp
         node.cpp
         node.hpp
         hasher.cpp
-        hasher.hpp)
+        hasher.hpp
+        main.cpp)
 enable_testing()

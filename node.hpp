@@ -1,6 +1,10 @@
-//
-// Created by Sora on 2/11/2021.
-//
+/*
+  Student Name: William Burch
+  File Name: node.hpp
+  Assignment number: Project 1
+
+  Nodes hold the username and password to put into the table
+*/
 
 #ifndef PROJECT1_NODE_HPP
 #define PROJECT1_NODE_HPP
@@ -12,7 +16,6 @@ class Node {
 private:
     string user;
     string encryptedPass;
-    Node * next;
 
 public:
     Node(string user, string encryptedPass);
@@ -24,9 +27,6 @@ public:
 
     void setEncryptedPass(const string &encryptedPass);
 
-    Node *getNext() const;
-
-    void setNext(Node *next);
 
 };
 
