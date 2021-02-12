@@ -35,6 +35,8 @@ public:
 
     void PrintOut();
 
+    bool findEntry(string user, string pass);
+
 };
 
 

@@ -4,6 +4,8 @@
 
 #include <iostream>
 #include "hasher.hpp"
+#include "encryptor.hpp"
+
 using namespace std;
 
 int Hasher::getNumOfBuckets() const {
@@ -65,5 +67,26 @@ int Hasher::HashFunction(string name) {
 
     return hash % getNumOfBuckets();
 }
+
+bool Hasher::findEntry(string user, string pass) {
+    Encryptor encryptor;
+    string encryptedPass = encryptor.Encrypt(pass);
+
+    int pos = HashFunction(user);
+    for(Node* i : table[pos])
+    {
+        if(i->getUser() == user)
+        {
+            if(i->getEncryptedPass() == encryptedPass)
+            {
+                return true;
+            }
+        }
+    }
+
+    return false;
+}
+
+
 
 

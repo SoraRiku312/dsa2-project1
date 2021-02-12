@@ -46,5 +46,19 @@ TEST_CASE("HASH_TABLE")
     hashTable.InsertNode(&node4);
     Node node5("BROWN", "obssregex");
     hashTable.InsertNode(&node5);
-    hashTable.PrintOut();
+//    hashTable.PrintOut();
+
+    CHECK(hashTable.findEntry("SMITH","phqghumea"));
+    CHECK(hashTable.findEntry("JOHNSON","ylnlfdxfi"));
+    CHECK(hashTable.findEntry("WILLIAMS","rcvscxggb"));
+    CHECK(hashTable.findEntry("JONES","wkfnqduxw"));
+    CHECK(hashTable.findEntry("BROWN","fnfozvsrt"));
+
+    CHECK_FALSE(hashTable.findEntry("SMITH","phqgzumea"));
+    CHECK_FALSE(hashTable.findEntry("JOHNSON","ylnlfzxfi"));
+    CHECK_FALSE(hashTable.findEntry("WILLIAMS","rzvscxggb"));
+    CHECK_FALSE(hashTable.findEntry("JONES","wkfzqduxw"));
+    CHECK_FALSE(hashTable.findEntry("BROWN","fnfozvsrz"));
+
+
 }
